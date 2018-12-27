@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 四大名浪费空间高科技为qdadadadadadad
+=======
+四大名浪费空间高科技为
+大大qcccccccc
+>>>>>>> remotes/origin/new
