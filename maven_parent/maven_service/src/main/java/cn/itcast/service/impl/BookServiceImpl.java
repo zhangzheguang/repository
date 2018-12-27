@@ -26,7 +26,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public void delete(int id) {
-        System.out.println("已删除1");
+        System.out.println("已删除11");
     }
 
 
