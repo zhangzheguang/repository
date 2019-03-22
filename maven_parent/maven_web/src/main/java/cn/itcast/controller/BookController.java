@@ -17,15 +17,8 @@ public class BookController {
     @Autowired
     BookService bookService;
 
-    @RequestMapping("/findAll")
-    public ModelAndView findAll(){
-        System.out.println(123);
-        List<Book> all = bookService.findAll();
-
-        ModelAndView modelAndView = new ModelAndView("success");
-
-        modelAndView.addObject("list", all);
-        System.out.println(123);
-        return modelAndView;
+     @RequestMapping("/findAll")
+    public String  findAll(){
+        return "hello world";
     }
 }
